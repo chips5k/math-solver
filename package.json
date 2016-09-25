@@ -1,0 +1,14 @@
+{
+  "name": "math-solver",
+  "version": "1.0.0",
+  "description": "TypeScript mathematical expression lexer, Shunting-Yard parser, AST builder and evaluator",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/tests/lexer.test.js dist/tests/parser.test.js dist/tests/solver.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "@types/node": "^22.0.0"
+  }
+}
