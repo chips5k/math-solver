@@ -1,0 +1,1 @@
+{"version":3,"file":"NumberTokenFactory.js","sourceRoot":"","sources":["../../../src/Lib/TokenFactories/NumberTokenFactory.ts"],"names":[],"mappings":";AACA,8BAAwB,oCAAoC,CAAC,CAAA;AAE7D;IAEI,MAAM,CAAC,KAAa;QAChB,MAAM,CAAC,IAAI,qBAAW,CAAC,KAAK,CAAC,CAAC;IAClC,CAAC;IACD,cAAc;QACV,MAAM,CAAC,yCAAyC,CAAC;IACrD,CAAC;AACL,CAAC;AARD;oCAQC,CAAA"}
