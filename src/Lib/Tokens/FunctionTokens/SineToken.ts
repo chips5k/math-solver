@@ -1,4 +1,4 @@
-import FunctionToken from './FunctionToken';
-export default class SineToken implements FunctionToken {
+import FunctionToken from '../FunctionToken';
+export default class SineToken extends FunctionToken {
 
 }

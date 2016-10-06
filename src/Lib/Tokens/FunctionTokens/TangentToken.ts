@@ -1,4 +1,4 @@
-import FunctionToken from './FunctionToken';
-export default class TangentToken implements FunctionToken {
+import FunctionToken from '../FunctionToken';
+export default class TangentToken extends FunctionToken {
 
 }
