@@ -1,5 +1,5 @@
 import TokenFactory from './TokenFactory';
-import FunctionToken from '../Tokens/FunctionTokens/FunctionToken';
+import FunctionToken from '../Tokens/FunctionToken';
 
 export default class FunctionTokenFactory implements TokenFactory  {
     constructor(private classMap: {[key: string]: () => FunctionToken}) {};

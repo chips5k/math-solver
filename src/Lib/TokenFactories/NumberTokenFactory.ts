@@ -1,5 +1,5 @@
 import TokenFactory from './TokenFactory';
-import NumberToken from '../Tokens/CommonTokens/NumberToken';
+import NumberToken from '../Tokens/NumberToken';
 
 export default class NumberTokenFactory implements TokenFactory {
     

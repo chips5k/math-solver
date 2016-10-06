@@ -1,5 +1,5 @@
 import TokenFactory from './TokenFactory';
-import ConstantToken from '../Tokens/ConstantTokens/ConstantToken';
+import ConstantToken from '../Tokens/ConstantToken';
 
 export default class ConstantTokenFactory implements TokenFactory  {
     constructor(private classMap: {[key: string]: () => ConstantToken }) {};

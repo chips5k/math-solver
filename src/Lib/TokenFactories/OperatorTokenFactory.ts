@@ -1,5 +1,5 @@
 import TokenFactory from './TokenFactory';
-import OperatorToken from '../Tokens/OperatorTokens/OperatorToken';
+import OperatorToken from '../Tokens/OperatorToken';
 
 //Operator Token Definitions
 import AdditionToken from '../Tokens/OperatorTokens/AdditionToken';

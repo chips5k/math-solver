@@ -1,5 +1,5 @@
 import TokenFactory from './TokenFactory';
-import VariableToken from '../Tokens/CommonTokens/VariableToken';
+import VariableToken from '../Tokens/VariableToken';
 
 export default class VariableTokenFactory implements TokenFactory  {
 
