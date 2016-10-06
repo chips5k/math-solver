@@ -1,5 +1,5 @@
 "use strict";
-const VariableToken_1 = require('../Tokens/CommonTokens/VariableToken');
+const VariableToken_1 = require('../Tokens/VariableToken');
 class VariableTokenFactory {
     create(value) {
         return new VariableToken_1.default(value);

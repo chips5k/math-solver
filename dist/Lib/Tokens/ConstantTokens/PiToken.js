@@ -1,5 +1,6 @@
 "use strict";
-class PiToken {
+const ConstantToken_1 = require('../ConstantToken');
+class PiToken extends ConstantToken_1.default {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = PiToken;

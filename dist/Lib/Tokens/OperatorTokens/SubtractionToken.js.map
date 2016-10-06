@@ -1,1 +1,1 @@
-{"version":3,"file":"SubtractionToken.js","sourceRoot":"","sources":["../../../../src/Lib/Tokens/OperatorTokens/SubtractionToken.ts"],"names":[],"mappings":";AACA;AAAgE,CAAC;AAAjE;kCAAiE,CAAA"}
+{"version":3,"file":"SubtractionToken.js","sourceRoot":"","sources":["../../../../src/Lib/Tokens/OperatorTokens/SubtractionToken.ts"],"names":[],"mappings":";AAAA,gCAA0B,kBAAkB,CAAC,CAAA;AAC7C,+BAA8C,uBAAa;AAE3D,CAAC;AAFD;kCAEC,CAAA"}

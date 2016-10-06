@@ -12,6 +12,7 @@ const CosineToken_1 = require('./Lib/Tokens/FunctionTokens/CosineToken');
 const TangentToken_1 = require('./Lib/Tokens/FunctionTokens/TangentToken');
 //Custom Constant Token Definitions
 const PiToken_1 = require('./Lib/Tokens/ConstantTokens/PiToken');
+//Note, NumberTokenFactory needs to be the first item to ensure unary values are correctly caught
 var factories = [
     new NumberTokenFactory_1.default(),
     new FunctionTokenFactory_1.default({
@@ -31,10 +32,4 @@ for (let i in factories) {
 }
 var tokens = lexer.tokenize('1 + 2 / x');
 console.log(tokens);
-// console.log(tokens);
-// var re = new RegExp('((?:[^0-9+\-]?\-)?[0-9]+(?:\.[0-9]+)?)|(sin|cos|tan)|(PI)|([+-\/*^=,()])|([a-zA-Z])', 'g');
-// var matches = [];
-// while(matches = re.exec('1 + 2 / x')) {
-//     console.log(matches);
-// }
 //# sourceMappingURL=index.js.map

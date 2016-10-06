@@ -41,4 +41,7 @@ for(let i in factories) {
 
 
 var tokens = lexer.tokenize('1 + 2 / x');
-console.log(tokens);
+
+var parser = new Parser();
+
+var parseTree = parser.buildParseTree(tokens);

@@ -1,5 +1,5 @@
 "use strict";
-const NumberToken_1 = require('../Tokens/CommonTokens/NumberToken');
+const NumberToken_1 = require('../Tokens/NumberToken');
 class NumberTokenFactory {
     create(value) {
         return new NumberToken_1.default(value);

@@ -1,1 +1,1 @@
-{"version":3,"file":"MultiplicationToken.js","sourceRoot":"","sources":["../../../../src/Lib/Tokens/OperatorTokens/MultiplicationToken.ts"],"names":[],"mappings":";AACA;AAAmE,CAAC;AAApE;qCAAoE,CAAA"}
+{"version":3,"file":"MultiplicationToken.js","sourceRoot":"","sources":["../../../../src/Lib/Tokens/OperatorTokens/MultiplicationToken.ts"],"names":[],"mappings":";AAAA,gCAA0B,kBAAkB,CAAC,CAAA;AAC7C,kCAAiD,uBAAa;AAAE,CAAC;AAAjE;qCAAiE,CAAA"}
